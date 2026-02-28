@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>About | Felipe Pereira</title>
+  <meta name="description" content="About Felipe Pereira: background, skills, education, and experience." />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -13,7 +14,7 @@
         <span>Felipe Pereira</span>
         <span class="badge">About</span>
       </div>
-      <nav>
+      <nav aria-label="Primary">
         <ul>
           <li><a href="index.html" data-page="index.html">Home</a></li>
           <li><a href="about.html" data-page="about.html">About</a></li>
@@ -25,36 +26,47 @@
   </header>
 
   <main class="container">
-    <section class="card">
-      <h1>Sobre mim</h1>
+    <section class="card" aria-label="About me">
+      <h1>About me</h1>
       <p class="subtitle">
-        Sou Felipe Pereira, desenvolvedor Full Stack em formação. Tenho interesse em desenvolvimento web
-        e estou construindo projetos para consolidar fundamentos de front-end e back-end, com foco em
-        código limpo, responsividade e uso do Git/GitHub.
+        I’m Felipe Pereira, a Full Stack Developer in training. I’m building projects to strengthen my
+        front-end and back-end fundamentals, focusing on clean code, responsive UI, and Git/GitHub workflows.
       </p>
 
-      <h2>Habilidades</h2>
-      <div>
+      <h2>Skills</h2>
+      <div aria-label="Skill tags">
         <span class="pill">HTML5</span>
         <span class="pill">CSS3</span>
         <span class="pill">JavaScript</span>
-        <span class="pill">Git/GitHub</span>
-        <span class="pill">APIs REST (em evolução)</span>
+        <span class="pill">Git & GitHub</span>
+        <span class="pill">REST APIs</span>
       </div>
 
-      <h2 style="margin-top: 18px;">Educação</h2>
+      <h2 style="margin-top: 18px;">Education</h2>
       <ul>
-        <li>Curso Full Stack — (coloque o nome da instituição) — (ano)</li>
+        <li>Full Stack Development Program — <strong>Your institution</strong> — <strong>Year</strong></li>
+        <li>Other courses/certifications — (optional)</li>
       </ul>
 
-      <h2>Experiência</h2>
+      <h2>Experience</h2>
       <ul>
-        <li>Projetos acadêmicos e pessoais (em construção)</li>
+        <li>Academic and personal projects (in progress)</li>
       </ul>
 
-      <h2>Vídeo de apresentação (opcional)</h2>
-      <p class="subtitle">Se você tiver um vídeo no YouTube, cole o embed aqui:</p>
-      <!-- Cole aqui o iframe do YouTube -->
+      <h2>Video introduction (optional)</h2>
+      <p class="subtitle">
+        If you have an intro video on YouTube, paste the embed iframe below.
+      </p>
+
+      <!-- Example:
+      <div class="card" style="padding: 12px;">
+        <iframe width="100%" height="360"
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      -->
     </section>
   </main>
 
