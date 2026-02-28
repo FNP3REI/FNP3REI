@@ -3,7 +3,13 @@
 Full Stack Developer in training, focused on building modern web applications with clean code, responsive UI, and strong Git/GitHub practices.
 
 ## Tech Stack
-![JS](https://img.shields.io) ![TS](https://img.shields.io) ![C#](https://img.shields.io) ![Angular](https://img.shields.io) ![SQL Server](https://img.shields.io)
+<p align="left">
+  <img src="https://img.shields.io" alt="JS" />
+  <img src="https://img.shields.io" alt="TS" />
+  <img src="https://img.shields.io" alt="C#" />
+  <img src="https://img.shields.io" alt="Angular" />
+  <img src="https://img.shields.io" alt="SQL Server" />
+</p>
 
 - HTML5, CSS3, JavaScript
 - Git & GitHub
