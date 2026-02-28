@@ -3,7 +3,7 @@
 Full Stack Developer in training, focused on building modern web applications with clean code, responsive UI, and strong Git/GitHub practices.
 
 ## Tech Stack
-![JS](https://img.shields.io)
+![JS](https://img.shields.io)![TS](https://img.shields.io)
 - HTML5, CSS3, JavaScript
 - Git & GitHub
 - REST APIs (learning)
